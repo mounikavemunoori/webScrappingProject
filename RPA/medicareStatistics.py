@@ -1,10 +1,11 @@
+import json
 import pdb
-
 import rpa
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
+import os
 
 class HTMLParser:
     def __init__(self, html_content):
@@ -49,6 +50,7 @@ class CommonMethodsPandas(object):
         data_frame.to_csv(file_name, index=False)
         print(f"HTML data has been converted and saved to {file_name}.")
 
+# This class used to extract the table data from website
 class MedicareStatistics(object):
     def __init__(self):
         self.url = 'http://medicarestatistics.humanservices.gov.au/statistics/mbs_group.jsp'
@@ -61,7 +63,7 @@ class MedicareStatistics(object):
 
     def initialize_browser(self):
         rpa.init()
-        rpa.url(self.url)
+        rpa.url(self.read_json_file('url'))
         # ensure results are fully loaded
         rpa.wait()
         print(f'Successfully launched the url {self.url}')
@@ -97,6 +99,13 @@ class MedicareStatistics(object):
         formatted_date = date_string.strftime('%Y%m')
         return formatted_date
 
+    def read_json_file(self, key):
+        current_directory = os.getcwd()
+        json_file_path = os.path.join(current_directory, 'RPA', 'testData.json')
+        with open(json_file_path) as json_file:
+            data = json.load(json_file)
+        return data[key]
+
     def get_current_financial_year_dates(self):
         today = datetime.date.today()
         current_year = today.year
@@ -115,7 +124,7 @@ def main():
     # initialize the browser using rpa
     medicareObj.initialize_browser()
     # selecting the drop down value from medicare category drop down
-    medicareObj.select_report_on_medicare_category_dropdown_option("Category 5 - Diagnostic Imaging Services")
+    medicareObj.select_report_on_medicare_category_dropdown_option(medicareObj.read_json_file("medicare_category_drop_down_value"))
     # fetching the  current financial year start  and end date
     financial_year_start_date, financial_year_end_date = medicareObj.get_current_financial_year_dates()
     financial_year_start_date = medicareObj.formatted_date_year_month(financial_year_start_date)

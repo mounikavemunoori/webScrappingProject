@@ -1,0 +1,55 @@
+5 Diagnostic Imaging Services,5 Diagnostic Imaging Services,State,State,State,State,State,State,State,State,Total
+5 Diagnostic Imaging Services,5 Diagnostic Imaging Services,NSW,VIC,QLD,SA,WA,TAS,ACT,NT,Total
+5 Diagnostic Imaging Services,5 Diagnostic Imaging Services.1,Services,Services,Services,Services,Services,Services,Services,Services,Services
+Group,Subgroup,1254597,916990,743901,195526,344125,51578,51742,22390,3580849
+I1 Ultrasound,1 General,1254597,916990,743901,195526,344125,51578,51742,22390,3580849
+I1 Ultrasound,2 Cardiac,6796,2802,3975,908,1509,207,114,96,16407
+I1 Ultrasound,3 Vascular,389091,294513,164439,86458,87161,15411,12382,2945,1052400
+I1 Ultrasound,4 Urological,8048,5918,5660,1860,2828,660,212,103,25289
+I1 Ultrasound,5 Obstetric and Gynaecological,382969,275301,196985,58048,108956,17541,18887,8768,1067455
+I1 Ultrasound,6 Musculoskeletal,870671,653018,591763,177500,316245,31057,31838,13051,2685143
+I1 Ultrasound,7 Transthoracic and stress echocardiograms,512411,348598,265999,83497,121272,19163,15375,9013,1375328
+I1 Ultrasound,Total,3424583,2497140,1972722,603797,982096,135617,130550,56366,9802871
+I2 Computerised Tomography,Subgroup,219041,150631,137038,45617,55775,11027,8099,3081,630309
+I2 Computerised Tomography,1 Head,219041,150631,137038,45617,55775,11027,8099,3081,630309
+I2 Computerised Tomography,2 Neck,22237,15092,13912,7095,5922,1318,1154,415,67145
+I2 Computerised Tomography,3 Spine,182669,126032,130643,40908,53138,8516,5069,2266,549241
+I2 Computerised Tomography,4 Chest and Upper Abdomen,135242,100176,85509,31314,48097,7121,7103,2350,416912
+I2 Computerised Tomography,5 Upper Abdomen Only,37849,26647,42636,8280,9082,3137,2113,390,130134
+I2 Computerised Tomography,6 Upper Abdomen and Pelvis,207542,141264,131487,45121,50759,12631,8055,2764,599623
+I2 Computerised Tomography,7 Extremities,83233,61019,59886,15341,29821,4453,3547,1182,258482
+I2 Computerised Tomography,"8 Chest, Abdomen, Pelvis and Neck",103622,75614,49684,24696,23927,6263,4926,1428,290160
+I2 Computerised Tomography,"9 Brain, Chest and Upper Abdomen",15043,8043,27129,3571,1806,2030,1242,153,59017
+I2 Computerised Tomography,10 Pelvimetry,9,2,15,3,5,1,0,1,36
+I2 Computerised Tomography,11 Interventional Techniques,106686,57407,70631,18686,46925,2795,2947,1011,307088
+I2 Computerised Tomography,12 Angiography,115143,58266,47676,18421,26335,3807,3709,1242,274599
+I2 Computerised Tomography,13 Cone Beam Computed Tomography,17341,15777,10180,2160,3584,759,1016,40,50857
+I2 Computerised Tomography,Total,1245657,835970,806426,261213,355176,63858,48980,16323,3633603
+I3 Diagnostic Radiology,Subgroup,1043715,720553,640821,203598,316456,56945,32380,15589,3030057
+I3 Diagnostic Radiology,1 Extremities,1043715,720553,640821,203598,316456,56945,32380,15589,3030057
+I3 Diagnostic Radiology,2 Shoulder or Hip Joint,577403,438440,381495,133313,192709,36514,17830,10051,1787755
+I3 Diagnostic Radiology,3 Head,346370,331808,216471,71529,59287,23184,7314,4340,1060303
+I3 Diagnostic Radiology,4 Spine,199542,157828,143888,34591,61604,14590,5793,4153,621989
+I3 Diagnostic Radiology,5 Bone Age and Skeletal Surveys,4936,4666,2042,2119,531,61,230,77,14662
+I3 Diagnostic Radiology,6 Thoracic,584704,396070,339667,100209,128127,31309,17078,8017,1605181
+I3 Diagnostic Radiology,7 Urinary Tract,9056,4453,2312,992,416,182,199,23,17633
+I3 Diagnostic Radiology,8 Alimentary Tract and Biliary System,74629,50522,41807,12329,14969,4090,1846,938,201130
+I3 Diagnostic Radiology,9 For Localisation of Foreign Bodies,262,456,764,235,37,43,9,20,1826
+I3 Diagnostic Radiology,10 Breasts,136216,87031,64434,24527,25288,5491,5071,1630,349688
+I3 Diagnostic Radiology,12 With Opaque or Contrast Media,2308,5700,4198,773,7051,95,242,84,20451
+I3 Diagnostic Radiology,13 Angiography,30536,14209,6177,2000,7349,596,903,47,61817
+I3 Diagnostic Radiology,14 Tomography,0,2,0,0,0,0,0,0,2
+I3 Diagnostic Radiology,15 Fluoroscopic examination and report,51165,39560,31487,13482,21694,3994,1666,548,163596
+I3 Diagnostic Radiology,16 Preparation for Radiological Procedure,0,3,0,0,0,0,0,0,3
+I3 Diagnostic Radiology,17 Interventional Techniques,15083,11361,11150,2778,4674,936,961,224,47167
+I3 Diagnostic Radiology,18 Flagfall for RACF,0,0,0,0,0,0,0,0,0
+I3 Diagnostic Radiology,Total,3075925,2262662,1886713,602475,840192,178030,91522,45741,8983260
+I4 Nuclear Medicine Imaging,Subgroup,103569,55261,46427,14291,13189,5045,4393,994,243169
+I4 Nuclear Medicine Imaging,1 Nuclear Medicine - Non PET,103569,55261,46427,14291,13189,5045,4393,994,243169
+I4 Nuclear Medicine Imaging,2 PET,54627,43340,30593,6812,21061,3770,2611,680,163494
+I4 Nuclear Medicine Imaging,3 Adjunctive services,125650,65578,61190,15036,26859,6293,4368,1198,306172
+I4 Nuclear Medicine Imaging,Total,283846,164179,138210,36139,61109,15108,11372,2872,712835
+I6 Miscellaneous Services,Subgroup,0,0,0,0,0,0,0,0,0
+I6 Miscellaneous Services,1 Management of Bulk-Billed Services,0,0,0,0,0,0,0,0,0
+I6 Miscellaneous Services,Total,0,0,0,0,0,0,0,0,0
+Total,Total,8030011,5759951,4804071,1503624,2238573,392613,282424,121302,23132569
